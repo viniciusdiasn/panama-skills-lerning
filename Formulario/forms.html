@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    
+
+    <div>
+        <h1>
+            <p>Formulario sobre culinaria</p>
+            <p>Complete teu cadastro</p>
+        </h1>
+    </div>
+
+    <form>
+        <fieldset>
+        <div>    
+            <label>Nome</label>
+            <input type="text" name="Nome" id="Nome">
+        </div>
+   
+
+        <div>
+            <label>Sobrenome</label>
+            <input type="text" name="Sobrenome" id="Sobrenome">
+        </div>
+        </fieldset>
+
+        <div>
+            <label>E-mail</label>
+            <input type="email" name="E-mail" id="E-mail">
+        </div>
+        <div>
+            <label>Qual sua especialização?</label>
+            <label>
+                <input type="radio" name="especialização" value="Sushiman">Sushiman
+            </label>
+            <label>
+                <input type="radio" name="especialização" value="Nordestino">Nordestino
+            </label>
+            <label>
+                <input type="radio" name="especialização" value="Sulista">Sulista
+            </label>
+            <label>
+                <input type="radio" name="especialização" value="Lanchonete">Lanchonete
+            </label>
+            <label>
+                <input type="radio" name="especialização" value="Hambuguer">Hambuguer
+            </label> 
+        </div>    
+        <div>
+            <label>Grau de experiencia</label>
+            <select id="Grau de experiencia">
+                <option selected desabled value="" >Selecione</option>
+                <option>Aspirante</option>
+                <option>iniciante</option>
+                <option>Intermediario</option>
+                <option>Avançado</option>
+                <option>Profissional</option>
+            </select>
+        </div>
+        <fieldset>
+            <div>
+                <label>Tipos de equipamentos mais usa</label>
+                <input type="checkbox" id="e1" value="Facas">
+                    <label for="e1">Facas</label>
+                <input type="checkbox" id="e2" value="Espatulas">
+                    <label for="e2">Espatulas</label>
+                <input type="checkbox" id="e3" value="Espatulas asiaticas">
+                    <label for="e3">Espatulas asiaticas</label>
+                <input type="checkbox" id="e4" value="Rolo de massas">
+                    <label for="e4">Rolo de massas</label>
+                <input type="checkbox" id="e5" value="Colherão">
+                    <label for="e5">Colherão</label>
+            
+            
+            
+            </div>
+        </fieldset>
+        
+        <div>
+            <br>
+            <label>Conte sua experiencia ou algo a mais</label>
+            <textarea row="6" style="width: 26em;" id="experiencia" name="experiencia"></textarea>
+        </div>
+        <button type="submit">Concluido</button>
+    </form>
+
+</body>
+</html>
